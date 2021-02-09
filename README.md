@@ -1,5 +1,5 @@
 
-<img src="/app_preview.png?raw=true" alt="Shimmer" /><br />
+<img src="/app_preview.png?raw=true" alt="App Preview" /><br />
 # App for displaying TTC Finch Station Stops/Routes/Schedules
 </br>
 Libraries used </br>
