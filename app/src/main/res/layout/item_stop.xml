@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="stop"
+            type="com.ttc.finch_station.data.model.business.Stop" />
+    </data>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:elevation="@dimen/_3sdp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_12sdp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_stop_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/lorem_ipsum"
+                android:maxLines="2"
+                android:ellipsize="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/btn_view_routes"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_agency"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lorem_ipsum"
+                android:maxLines="1"
+                android:ellipsize="end"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                android:layout_marginTop="@dimen/_4sdp"
+                app:layout_constraintStart_toStartOf="@id/tv_stop_name"
+                app:layout_constraintTop_toBottomOf="@id/tv_stop_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/tv_stop_name"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_view_routes"
+                style="@style/Widget.TTC_FinchStation.Button.TextButton"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                android:text="@string/view_routes"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:textColor="@color/green_apple"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_stop_name"
+                />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</layout>

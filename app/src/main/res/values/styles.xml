@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="autoSizeMinTextSize">@dimen/_12ssp</item>
+        <item name="android:autoSizeStepGranularity">@dimen/_1ssp</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/_18ssp</item>
+    </style>
+
+
+</resources>

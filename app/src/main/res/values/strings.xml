@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TTC FinchStation</string>
+    <string name="view_routes">View Routes</string>
+    <string name="no_available_routes">No Available Routes</string>
+    <string name="no_available_schedule">No Available Schedule</string>
+    <string name="datetime_placeholder_text">February 12, 2021 11:54 PM</string>
+    <string name="date_placeholder_text">February 12, 2021</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="view_schedule">View Schedule</string>
+    <string name="error_page_text_1">\nFailed to load Finch Station routes. \nPlease check your internet connection</string>
+    <string name="retry">Retry</string>
+</resources>
