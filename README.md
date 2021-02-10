@@ -16,6 +16,7 @@ View <-> ViewModel <-> Interactors/Use Cases <-> Repository <-> Local/Remote Dat
 </br>
 Additional features: </br>
 Stops with available routes are prioritized in listing</br>
+Data persistence on orientation change</br>
 SwipeRefreshLayout in StopListView to reload data </br>
 Displayed departure date/time in Toronto, Canada time</br>
 Has data object mapper that converts Network models to Business models (StationDataMapper.kt)</br>
